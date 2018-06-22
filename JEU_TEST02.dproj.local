@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/29 00:07:14.000.523,C:\Users\Jean-Claude\Documents\Embarcadero\Studio\Projets\test.dproj=C:\Users\Jean-Claude\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2017/10/29 00:14:08.000.653,C:\Users\Jean-Claude\Documents\Embarcadero\Studio\Projets\JEU_TEST02.dproj=C:\Users\Jean-Claude\Documents\Embarcadero\Studio\Projets\test.dproj</Transaction>
+    <Transaction>2017/10/29 00:14:11.000.567,C:\Users\Jean-Claude\Documents\Embarcadero\Studio\Projets\JEU_TEST02.dproj=C:\Users\Jean-Claude\Documents\Embarcadero\Studio\Projets\JEU_TEST02.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

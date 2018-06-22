@@ -1,0 +1,144 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{642E3FE4-4D9F-47B8-93FB-BB631B25029C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="JEU.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST02.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST03.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST04.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST05.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST06.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST07.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST08.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST09.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="JEU_TEST10.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="JEU">
+        <MSBuild Projects="JEU.dproj"/>
+    </Target>
+    <Target Name="JEU:Clean">
+        <MSBuild Projects="JEU.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU:Make">
+        <MSBuild Projects="JEU.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST02">
+        <MSBuild Projects="JEU_TEST02.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST02:Clean">
+        <MSBuild Projects="JEU_TEST02.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST02:Make">
+        <MSBuild Projects="JEU_TEST02.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST03">
+        <MSBuild Projects="JEU_TEST03.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST03:Clean">
+        <MSBuild Projects="JEU_TEST03.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST03:Make">
+        <MSBuild Projects="JEU_TEST03.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST04">
+        <MSBuild Projects="JEU_TEST04.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST04:Clean">
+        <MSBuild Projects="JEU_TEST04.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST04:Make">
+        <MSBuild Projects="JEU_TEST04.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST05">
+        <MSBuild Projects="JEU_TEST05.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST05:Clean">
+        <MSBuild Projects="JEU_TEST05.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST05:Make">
+        <MSBuild Projects="JEU_TEST05.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST06">
+        <MSBuild Projects="JEU_TEST06.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST06:Clean">
+        <MSBuild Projects="JEU_TEST06.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST06:Make">
+        <MSBuild Projects="JEU_TEST06.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST07">
+        <MSBuild Projects="JEU_TEST07.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST07:Clean">
+        <MSBuild Projects="JEU_TEST07.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST07:Make">
+        <MSBuild Projects="JEU_TEST07.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST08">
+        <MSBuild Projects="JEU_TEST08.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST08:Clean">
+        <MSBuild Projects="JEU_TEST08.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST08:Make">
+        <MSBuild Projects="JEU_TEST08.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST09">
+        <MSBuild Projects="JEU_TEST09.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST09:Clean">
+        <MSBuild Projects="JEU_TEST09.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST09:Make">
+        <MSBuild Projects="JEU_TEST09.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="JEU_TEST10">
+        <MSBuild Projects="JEU_TEST10.dproj"/>
+    </Target>
+    <Target Name="JEU_TEST10:Clean">
+        <MSBuild Projects="JEU_TEST10.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JEU_TEST10:Make">
+        <MSBuild Projects="JEU_TEST10.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="JEU;JEU_TEST02;JEU_TEST03;JEU_TEST04;JEU_TEST05;JEU_TEST06;JEU_TEST07;JEU_TEST08;JEU_TEST09;JEU_TEST10"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="JEU:Clean;JEU_TEST02:Clean;JEU_TEST03:Clean;JEU_TEST04:Clean;JEU_TEST05:Clean;JEU_TEST06:Clean;JEU_TEST07:Clean;JEU_TEST08:Clean;JEU_TEST09:Clean;JEU_TEST10:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="JEU:Make;JEU_TEST02:Make;JEU_TEST03:Make;JEU_TEST04:Make;JEU_TEST05:Make;JEU_TEST06:Make;JEU_TEST07:Make;JEU_TEST08:Make;JEU_TEST09:Make;JEU_TEST10:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
